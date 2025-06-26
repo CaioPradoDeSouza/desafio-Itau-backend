@@ -8,7 +8,6 @@ import jakarta.validation.constraints.NotNull;
 public class TransactionDTO {
     
     @NotNull
-    @Min(0)
     private double valor;
     
     @NotNull
